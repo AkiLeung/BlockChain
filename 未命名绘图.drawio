@@ -1,20 +1,95 @@
-<mxfile host="app.diagrams.net" modified="2021-10-22T02:09:17.769Z" agent="5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="x20CTJwuCSQYTxajbHMC" version="15.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-22T07:13:05.081Z" agent="5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="DA702VoqfL3CHWQopoMp" version="15.5.1" type="github">
   <diagram id="xDW0nmdAWTIhCpAVvzTN" name="CatchWeight-STO OUT">
     <mxGraphModel dx="1414" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="VGXZKBjWdGet-cw5o_TS-1" value="抄磅人" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="70" y="585" width="30" height="60" as="geometry" />
+          <mxGeometry x="40" y="610" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="VGXZKBjWdGet-cw5o_TS-2" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="140" y="380" width="500" height="500" as="geometry" />
+          <mxGeometry x="147" y="300" width="683" height="683" as="geometry" />
         </mxCell>
-        <mxCell id="VGXZKBjWdGet-cw5o_TS-3" value="手工录入" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="160" y="390" width="120" height="80" as="geometry" />
+        <mxCell id="VGXZKBjWdGet-cw5o_TS-3" value="录入抄磅" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="590" width="170" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="VGXZKBjWdGet-cw5o_TS-4" value="扫描读取" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="160" y="520" width="120" height="80" as="geometry" />
+        <mxCell id="VGXZKBjWdGet-cw5o_TS-4" value="扫描抄磅" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="660" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VGXZKBjWdGet-cw5o_TS-5" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="VGXZKBjWdGet-cw5o_TS-1" target="VGXZKBjWdGet-cw5o_TS-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="100" y="600" as="sourcePoint" />
+            <mxPoint x="440" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VGXZKBjWdGet-cw5o_TS-7" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="VGXZKBjWdGet-cw5o_TS-1" target="VGXZKBjWdGet-cw5o_TS-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="100" y="600" as="sourcePoint" />
+            <mxPoint x="440" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VGXZKBjWdGet-cw5o_TS-8" value="单据列表" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="310" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VGXZKBjWdGet-cw5o_TS-9" value="物料列表" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="450" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VGXZKBjWdGet-cw5o_TS-10" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VGXZKBjWdGet-cw5o_TS-1" target="VGXZKBjWdGet-cw5o_TS-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="680" as="sourcePoint" />
+            <mxPoint x="440" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VGXZKBjWdGet-cw5o_TS-11" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="VGXZKBjWdGet-cw5o_TS-1" target="VGXZKBjWdGet-cw5o_TS-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="110" y="600" as="sourcePoint" />
+            <mxPoint x="440" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VGXZKBjWdGet-cw5o_TS-12" value="删除抄磅" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="730" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VGXZKBjWdGet-cw5o_TS-13" value="绑定M Lable" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="870" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VGXZKBjWdGet-cw5o_TS-14" value="打印抄磅" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="800" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VGXZKBjWdGet-cw5o_TS-17" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="VGXZKBjWdGet-cw5o_TS-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="70" y="630" as="sourcePoint" />
+            <mxPoint x="440" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VGXZKBjWdGet-cw5o_TS-18" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="VGXZKBjWdGet-cw5o_TS-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="70" y="630" as="sourcePoint" />
+            <mxPoint x="440" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VGXZKBjWdGet-cw5o_TS-19" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="VGXZKBjWdGet-cw5o_TS-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="70" y="630" as="sourcePoint" />
+            <mxPoint x="440" y="830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VGXZKBjWdGet-cw5o_TS-20" value="查询物料" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="520" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VGXZKBjWdGet-cw5o_TS-21" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VGXZKBjWdGet-cw5o_TS-1" target="VGXZKBjWdGet-cw5o_TS-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="680" as="sourcePoint" />
+            <mxPoint x="440" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VGXZKBjWdGet-cw5o_TS-22" value="查询单据" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="380" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VGXZKBjWdGet-cw5o_TS-23" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="VGXZKBjWdGet-cw5o_TS-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="70" y="630" as="sourcePoint" />
+            <mxPoint x="440" y="630" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
